@@ -13,3 +13,5 @@ For this project, I must use objects and Constructors to build and control the g
 This will be a long project. Weeks not days. Hopefully not months.
 
 Before I do anything, a proper refresher on objects and Constructors is required.
+
+-   27-Aug-2021: Decided to do two versions of this project, first where I use my (meagre) existing knowledge and skills. Brushing up on Constructors etc. as I go, and potentially using them for some parts of 'my' version of the Project. Then the 'proper' one as stipulated in the Project instructions.

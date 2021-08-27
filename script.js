@@ -1,28 +1,20 @@
 "use strict";
 
-// function New_user(name, level) {
-//     this.name = name;
+function squareClicked(e) {
+    // parseInt(e.substring(11)), 1
+    let theSquareClicked = e.className;
+    theSquareClicked = parseInt(theSquareClicked.substring(9, 1));
+    console.log(theSquareClicked);
+}
 
-//     level === 0 ? (this.isAdmin = false) : (this.isAdmin = true);
-// }
+const gameBoard = document.querySelector(".game__board");
 
-// let user1 = new New_user("Dee", 0);
+const squares = document.querySelectorAll(".square");
 
-// console.log(`${user1.name} ${user1.isAdmin ? "is " : "is not "}Admin`);
+squares.forEach((square) => {
+    square.addEventListener("click", (e) => {
+        squareClicked(e);
+    });
+});
 
-const person = {
-    firstName: "John",
-    lastName: "Doe",
-    id: 5566,
-    fullName: function () {
-        return this.firstName + " " + this.lastName;
-    },
-};
-
-console.log(Object.values(person));
-
-person.fullName = person.fullName.toString();
-
-let myJsonString = JSON.stringify(person);
-
-console.log(myJsonString);
+let whoseTurn = 1; // 0 = 0 and X = 1; X always goes first

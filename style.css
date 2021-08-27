@@ -1,5 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Muli&display=swap");
+
 * {
     box-sizing: border-box;
+}
+
+body {
     background-color: black;
     color: whitesmoke;
+    font-family: "Muli", sans-serif;
+    display: flex;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    width: 36rem;
+    height: 40rem;
+    /* border: white 2px solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading {
+    width: 25rem;
+    height: 5rem;
+    /* border: red 2px solid; */
+    margin-bottom: 10px;
+}
+
+.game__board {
+    height: 33rem;
+    width: 33rem;
+    /* border: green 2px solid; */
+    display: flex;
+    flex-wrap: wrap;
+    /* overflow: hidden; */
+    /* display: inline; */
+}
+
+.square {
+    border: darkcyan 4px solid;
+    height: 11rem;
+    width: 11rem;
+    text-align: center;
+    line-height: 11rem;
+    font-size: 6rem;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(129, 142, 167);
 }
