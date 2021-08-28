@@ -28,7 +28,7 @@ body {
 
 .heading {
     width: 25rem;
-    height: 5rem;
+    height: 7rem;
     /* border: red 2px solid; */
     margin-bottom: 10px;
 }
@@ -44,7 +44,7 @@ body {
 }
 
 .square {
-    border: darkcyan 4px solid;
+    border: rgb(157, 182, 182) 4px solid;
     height: 11rem;
     width: 11rem;
     text-align: center;
@@ -55,4 +55,5 @@ body {
 h2 {
     text-align: center;
     color: rgb(129, 142, 167);
+    font-size: 1.7rem;
 }
